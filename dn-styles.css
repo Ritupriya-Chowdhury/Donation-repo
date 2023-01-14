@@ -1,0 +1,247 @@
+.banner{
+    background-image: url(images/donation8.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 70px 0 50px;
+    height: 500px;
+    width: 1600px;
+    padding:80px 100px 0 100px;
+    }
+.banner-title{
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    
+}
+.banner-des{
+    color:rgb(97, 97, 252);
+    font-weight: 300;
+    font-size: 20px;
+    
+
+}
+.btn{
+    height:50px ;
+    width: 160px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(218, 74, 74);
+    margin-left: 500px;
+    margin-top: 20px;
+
+}
+
+.donate-today, .donation-plan{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+
+}
+.donate-title{
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 400px;
+}
+.donate-des{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    padding-left: 100px;
+}
+.donation-amount{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 60px;
+}
+.donation-amount div{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #e7e7e7;
+    padding: 20px;
+}
+#donate-am-2{
+    background-color: rgb(248, 218, 189);
+}
+.donate-des2{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    padding-left: 500px;
+
+}
+.donation-for{
+    display: flex;
+}
+.donation-for div{
+    margin: 50px;
+    padding: 50px;
+    width: 400px;
+    height: 350px;
+    border-radius: 5px;
+}
+.food{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.shelter{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.education{
+    background: rgb(247, 196, 146)
+}
+
+.donation-for h3{
+    font-weight: 600;
+font-size: 24px;
+}
+.donation-for p{
+    font-weight: 400;
+font-size: 16px;
+color: #707070;
+}
+    
+
+
+@media screen and (max-width:576px) {
+
+    .banner{
+        margin: 0;
+    height: 500px;
+    width: 300px;
+    padding-left: 10px;
+     }
+     .banner-title{
+        font-size: 40px;
+        
+        
+    }
+    .banner-des{
+       
+        font-size: 20px;
+    }
+    .btn{
+        height: 40px ;
+        width: 160px;
+        margin-left: 0;
+        font-weight: 500;
+        font-size: 20px;
+        border-radius: 10px;
+        
+        
+    }
+    .donate-title{
+        font-weight: 600;
+        font-size: 30px;
+        padding-left: 0;
+    }
+    .donate-des{
+        font-weight: 400;
+        font-size: 16px;
+        padding-left: 0;
+    }
+    .donation-amount{
+        display: grid;
+        grid-template-columns: repeat(2,1fr); 
+        font-weight: 700;
+        font-size: 25px;
+        padding-left: 40px;
+    }
+    .donation-amount div{
+        height: 40px;
+        width: 80px;
+       margin: 10px;
+        padding: 20px;
+    }
+    
+    .donate-des2{
+        font-weight: 400;
+        font-size: 16px;
+        padding-left: 0;
+    
+    }
+    .donation-plan{
+        font-weight: 400;
+        font-size: 16px;
+        padding-left: 100px;
+    }
+    .donation-for{
+        flex-direction: column;
+    }
+    .donation-for div{
+        margin-left: 100px;
+        padding: 10px;
+        width: 200px;
+        height: 300px;
+    }
+
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    .banner{
+   
+    margin: 0;
+    margin-right: 5px;
+    height: 500px;
+    width: 600px;
+     }
+     .banner-title{
+        font-size: 40px;
+        
+    }
+    .banner-des{
+       
+        font-size: 18px;
+    }
+    .btn{
+        height: 40px ;
+        width: 160px;
+        margin-left: 200px;
+        font-weight: 500;
+        font-size: 20px;
+        border-radius: 10px;
+     }
+     .donate-title{
+        font-weight: 700;
+        font-size: 40px;
+        padding-left: 160px;
+    }
+    .donate-des{
+        font-weight: 400;
+        font-size: 16px;
+        padding-left: 80px;
+    }
+    .donation-amount{
+        
+        font-weight: 700;
+        font-size: 25px;
+        padding-left: 40px;
+    }
+    .donation-amount div{
+        height: 40px;
+        width: 80px;
+       margin: 10px;
+        padding: 20px;
+    }
+    .donate-des2{
+        font-weight: 400;
+        font-size: 18px;
+        
+        padding-left: 200px;
+    
+    }
+    .donation-for div{
+        
+        padding: 10px;
+        width: 450px;
+        height: 350px;
+    }
+    
+
+}
